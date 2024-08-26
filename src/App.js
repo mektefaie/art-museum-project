@@ -1,7 +1,7 @@
+import harvardArt from './data/harvardArt'
+
 function App() {
-  return (
-    <h1>Hello from App</h1>
-  );
+  return <h1>Hello from Root</h1>
 }
 
-export default App;
+export default App
