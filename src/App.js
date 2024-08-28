@@ -1,7 +1,8 @@
+import GalleryNavigation from './components/GalleryNavigation'
 import harvardArt from './data/harvardArt'
 
 function App() {
-  return <h1>Hello from Root</h1>
+  return <GalleryNavigation galleries={harvardArt.records} />
 }
 
 export default App
